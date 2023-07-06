@@ -74,6 +74,8 @@ int main() {
         decode(str, k);
     else if (strcmp(s, "encode") == 0)
         encode(str, k);
+    else
+        printf("\nWrong input");
 
     return 0;
 }
